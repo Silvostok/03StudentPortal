@@ -5,29 +5,35 @@ public class GridItem {
     private String url;
     private String title;
 
-    public GridItem(String url, String title) {
-        this.url = url;
+    public GridItem(String title, String url)
+    {
         this.title = title;
+        this.url = url;
     }
 
-    public String getUrl() {
+    public String getUrl()
+    {
         return url;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setUrl(String url) {
+    public void setUrl(String url)
+    {
         this.url = url;
     }
 
-    public void setTitle(String title) {
+    public String getTitle()
+    {
+        return title;
+    }
+
+    public void setTitle(String title)
+    {
         this.title = title;
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return title;
     }
 }

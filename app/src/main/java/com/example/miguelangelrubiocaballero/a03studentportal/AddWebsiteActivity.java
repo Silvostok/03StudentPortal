@@ -21,7 +21,7 @@ public class AddWebsiteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_website);
 
         Button wButton = (Button) findViewById(R.id.button);
-        wUrl = (EditText)findViewById(R.id.editTextURL);
+        wUrl = (EditText)findViewById(R.id.editTextUrl);
         wTitle = (EditText)findViewById(R.id.editTextTitle);
 
         wButton.setOnClickListener(new View.OnClickListener() {
