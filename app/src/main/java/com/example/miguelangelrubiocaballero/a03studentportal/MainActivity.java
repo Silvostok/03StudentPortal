@@ -18,13 +18,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-
     private GridView mGridView;
     private ArrayAdapter<GridItem> mAdapter;
     private List<GridItem> mItems = new ArrayList<>();
 
-
-    public static final int REQUEST_CODE = 2;
+    public static final int REQUEST_CODE = 1;
     public static final String INTENT_ADD_WEBSITE_URL = "Add URL";
     public static final String INTENT_ADD_WEBSITE_TITLE = "Add Title";
 
@@ -77,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         updateUI();
-
 
     }
 

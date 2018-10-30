@@ -2,15 +2,19 @@ package com.example.miguelangelrubiocaballero.a03studentportal;
 
 public class GridItem {
 
+    // variables
     private String url;
     private String title;
 
+
+    // constructor
     public GridItem(String title, String url)
     {
         this.title = title;
         this.url = url;
     }
 
+    // getters & setters
     public String getUrl()
     {
         return url;
@@ -36,4 +40,5 @@ public class GridItem {
     {
         return title;
     }
+
 }
